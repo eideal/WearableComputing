@@ -8,27 +8,29 @@ A full description of th dataset is available at:
 
 ### Variables in Tidy.txt Dataset
 ------------------------------
-10299 rows/observations, 68 columns/measurements
+68 columns/measurements
 * First column: The subject number (1-30)
 * Second column: The activity (LAYING, SITTING, STANDING, WALKING, WALKING DOWNSTAIRS, WALKING UPSTAIRS)
 * Columns 3-68: The mean and standard deviation measurements. These are described in great detail in the `feature_info.txt` file, included in the data .zip file written above. These 66 measurements are:
-3-8.   mean() and std() **tBodyAcc** in X,Y,Z
-9-14.  mean() and std() **tGravityAcc** in X,Y,Z
-15-20. mean() and std() **tBodyAccJerk** in X,Y,Z
-21-26. mean() and std() **tBodyGyro** in X,Y,Z
-27-32. mean() and std() **tBodyGyroJerk** in X,Y,Z
-33-34. mean() and std() **tBodyAccMag**
-35-36. mean() and std() **tGravityAccMag**
-37-38. mean() and std() **tBodyAccJerkMag**
-39-40. mean() and std() **tBodyGyroMag**
-41-42. mean() and std() **tBodyGyroJerkMag**
-43-48. mean() and std() **fBodyAcc** in X,Y,Z
-49-54. mean() and std() **fBodyAccJerk** in X,Y,Z
-55-60. mean() and std() **fBodyGyro** in X,Y,Z
-61-62. mean() and std() **fBodyAccMag**
-63-64. mean() and std() **fBodyAccJerkMag**
-65-66. mean() and std() **fBodyGyroMag**
-67-68. mean() and std() **fBodyGyroJerkMag**
+
+- 3-8. mean() and std() **tBodyAcc** in X,Y,Z
+- 9-14.  mean() and std() **tGravityAcc** in X,Y,Z
+- 15-20. mean() and std() **tBodyAccJerk** in X,Y,Z
+- 21-26. mean() and std() **tBodyGyro** in X,Y,Z
+- 27-32. mean() and std() **tBodyGyroJerk** in X,Y,Z
+- 33-34. mean() and std() **tBodyAccMag**
+- 35-36. mean() and std() **tGravityAccMag**
+- 37-38. mean() and std() **tBodyAccJerkMag**
+- 39-40. mean() and std() **tBodyGyroMag**
+- 41-42. mean() and std() **tBodyGyroJerkMag**
+- 43-48. mean() and std() **fBodyAcc** in X,Y,Z
+- 49-54. mean() and std() **fBodyAccJerk** in X,Y,Z
+- 55-60. mean() and std() **fBodyGyro** in X,Y,Z
+- 61-62. mean() and std() **fBodyAccMag**
+- 63-64. mean() and std() **fBodyAccJerkMag**
+- 65-66. mean() and std() **fBodyGyroMag**
+- 67-68. mean() and std() **fBodyGyroJerkMag**
+
 
 Please see the `feature_info.txt` for more information.
 
